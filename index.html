@@ -8,44 +8,49 @@
 </head>
 <body>
     <header>
-        <img src="bilder/logo.png" alt="Logotyp" class="logo">
-        <p>Få inspiration till dagens måltider! Här byts dagens frukost, lunch och middag varje dag!</p>
+        <div class="logo-container">
+            <img src="bilder/logo.png" alt="Köks Kalendern Logo">
+            <p class="logo-text">
+                Få inspiration till dina måltider! Här byts frukost, lunch och middag varje dag!
+                Kolla in menyn i vårt bildspel.
+            </p>
+        </div>
     </header>
 
-    <section class="slider">
-        <div class="slides">
-            <div class="slide">
-                <img src="bilder/frukost.jpg" alt="Frukost: Havregrynsgröt">
-                <div class="caption">Havregrynsgröt med Frukt</div>
+    <section class="hero">
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="bilder/frukost.jpg" alt="Slide 1">
             </div>
-            <div class="slide">
-                <img src="bilder/lunch.jpg" alt="Lunch: Kycklingsallad">
-                <div class="caption">Kycklingsallad med Avokado</div>
+            <div class="slide fade">
+                <img src="bilder/lunch.jpg" alt="Slide 2">
             </div>
-            <div class="slide">
-                <img src="bilder/middag.jpg" alt="Middag: Pasta Carbonara">
-                <div class="caption">Pasta Carbonara</div>
+            <div class="slide fade">
+                <img src="bilder/middag.jpg" alt="Slide 3">
             </div>
         </div>
     </section>
 
-    <section class="recipe-section">
-        <div class="recipe-card">
-            <h2>Frukost</h2>
-            <p>Starta dagen rätt med en god frukost!</p>
-            <a href="breakfast.html">Se Recept</a>
-        </div>
-        <div class="recipe-card">
-            <h2>Lunch</h2>
-            <p>En energigivande lunch för att hålla dig i gång!</p>
-            <a href="lunch.html">Se Recept</a>
-        </div>
-        <div class="recipe-card">
-            <h2>Middag</h2>
-            <p>En utsökt middag för att avrunda dagen!</p>
-            <a href="dinner.html">Se Recept</a>
+    <section class="meals">
+        <div class="meal-list">
+            <div class="meal">
+                <h3>Frukost</h3>
+                <p>Starta dagen rätt med en god frukost!</p>
+                <a href="breakfast.html" class="button">Se Recept</a>
+            </div>
+            <div class="meal">
+                <h3>Lunch</h3>
+                <p>En utsökt lunch för att hålla dig i gång!</p>
+                <a href="lunch.html" class="button">Se Recept</a>
+            </div>
+            <div class="meal">
+                <h3>Middag</h3>
+                <p>En perfekt middag för att avrunda dagen!</p>
+                <a href="dinner.html" class="button">Se Recept</a>
+            </div>
         </div>
     </section>
+
     <script src="script.js"></script>
 </body>
 </html>
